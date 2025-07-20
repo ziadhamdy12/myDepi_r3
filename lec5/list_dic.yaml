@@ -1,0 +1,24 @@
+#list
+- orange
+- mango
+- apple
+
+
+#dic
+  name: ziad
+  age: 24
+  salary: 10000
+
+
+emmployee:
+        name: ahmed
+        age: 30
+        favoritColor:
+                -red
+                -blue
+                -yellow
+emmployees:
+        -name: ali
+         age: 20
+        -name: mo
+         age: 23

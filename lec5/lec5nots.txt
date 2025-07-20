@@ -1,0 +1,21 @@
+cat /etc/os-release
+ 
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 2
+sudo update-alternatives --config python3
+
+ 
+
+use ssh-copy-id command 
+to be able to ssh into the server without your password
+ 
+sudo apt install -y sshpass
+ 
+ansible -m ping -i inventory all
+ 
+new ip: 3.93.231.67
+ 13.222.225.28
+ 
+3.87.63.62
+ - { name: ziad, password: "password10" }
